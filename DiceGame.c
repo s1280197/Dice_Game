@@ -4,12 +4,6 @@
 int main(){
 
   int i,j;
-  char name[50];
-
-  printf("What is your name?\n");
-  scanf("%s",name);
-  printf("Hello, %s!\n",name);
-  printf("Rolling the dice..\n");
  
   i = rand() %6 + 1;
   j = rand() %6 + 1;
