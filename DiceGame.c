@@ -5,11 +5,10 @@ int main(){
 
   int i,j;
   char name[50];
-  
-  printf("What is your name?");
+
+  printf("What is your name?\n");
   scanf("%s",name);
-  printf("Hello,%s!\n",name);
-  
+  printf("Hello, %s!\n",name);
   printf("Rolling the dice..\n");
  
   i = rand() %6 + 1;
@@ -19,7 +18,6 @@ int main(){
   printf("Die 2: %d\n",j);
 
   printf("Total value: %d\n",i+j);
-
 
   return 0;
 }
