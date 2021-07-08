@@ -4,7 +4,11 @@
 int main(){
 
   int i,j;
+  char name[50];
 
+  printf("What is your name?\n");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
   printf("Rolling the dice..\n");
  
   i = rand() %6 + 1;
@@ -15,8 +19,5 @@ int main(){
 
   printf("Total value: %d\n",i+j);
 
-  if(i+j > 7)printf("You won!\n");
-  else printf("You lost.\n");
-   
   return 0;
 }
